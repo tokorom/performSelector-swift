@@ -12,6 +12,8 @@
 		06978B5F1978B8C90022A77B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06978B5D1978B8C90022A77B /* Main.storyboard */; };
 		06978B611978B8C90022A77B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06978B601978B8C90022A77B /* Images.xcassets */; };
 		06978B6D1978B8C90022A77B /* performSelector_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B6C1978B8C90022A77B /* performSelector_swiftTests.swift */; };
+		06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B761978BF6B0022A77B /* NSObject+performSelector.swift */; };
+		06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 06978B791978C0790022A77B /* NSObject+Swift.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,10 @@
 		06978B661978B8C90022A77B /* performSelector-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "performSelector-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06978B6B1978B8C90022A77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06978B6C1978B8C90022A77B /* performSelector_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = performSelector_swiftTests.swift; sourceTree = "<group>"; };
+		06978B761978BF6B0022A77B /* NSObject+performSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+performSelector.swift"; sourceTree = "<group>"; };
+		06978B781978C0780022A77B /* performSelector-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "performSelector-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		06978B791978C0790022A77B /* NSObject+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swift.m"; sourceTree = "<group>"; };
+		06978B7B1978C0A70022A77B /* NSObject+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +81,14 @@
 		06978B561978B8C90022A77B /* performSelector-swift */ = {
 			isa = PBXGroup;
 			children = (
+				06978B761978BF6B0022A77B /* NSObject+performSelector.swift */,
 				06978B591978B8C90022A77B /* AppDelegate.swift */,
 				06978B5B1978B8C90022A77B /* ViewController.swift */,
 				06978B5D1978B8C90022A77B /* Main.storyboard */,
 				06978B601978B8C90022A77B /* Images.xcassets */,
+				06978B791978C0790022A77B /* NSObject+Swift.m */,
+				06978B7B1978C0A70022A77B /* NSObject+Swift.h */,
+				06978B781978C0780022A77B /* performSelector-swift-Bridging-Header.h */,
 				06978B571978B8C90022A77B /* Supporting Files */,
 			);
 			path = "performSelector-swift";
@@ -208,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */,
 				06978B5C1978B8C90022A77B /* ViewController.swift in Sources */,
 				06978B5A1978B8C90022A77B /* AppDelegate.swift in Sources */,
+				06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +337,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "performSelector-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "performSelector-swift/performSelector-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +351,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "performSelector-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "performSelector-swift/performSelector-swift-Bridging-Header.h";
 			};
 			name = Release;
 		};

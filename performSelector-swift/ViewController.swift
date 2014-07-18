@@ -1,25 +1,27 @@
 //
 //  ViewController.swift
-//  performSelector-swift
 //
-//  Created by ytokoro on 7/18/14.
-//  Copyright (c) 2014 tokoro. All rights reserved.
+//  Created by ToKoRo on 2014-07-18.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-                            
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBAction func buttonDidTap(sender: UIButton) {
+        var responder: UIResponder? = sender
+        while responder {
+            println("\(responder)");
 
+            let selector = Selector("setBackgroundColor:")
+            if responder!.respondsToSelector(selector) {
+                let color = UIColor.blackColor()
+                responder!.swift_performSelector(selector, withObject: color)
+            }
+
+            responder = responder!.nextResponder()
+        }
+    }
 
 }
 
