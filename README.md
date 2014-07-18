@@ -3,7 +3,8 @@
 ## Usage
 
 ```swift
-object.swift_performSelector(selector, withObject: nil)
+let ret: AnyObject! = self.swift_performSelector("say:", withObject: "hello")
+println("ret = \(ret)");
 ```
 
 ## Sample Code
