@@ -2,9 +2,17 @@
 
 ## Usage
 
+- performSelector:withObject:
+
 ```swift
 let ret: AnyObject! = self.swift_performSelector("say:", withObject: "hello")
 println("ret = \(ret)");
+```
+
+- performSelector:withObject:afterDelay:
+
+```swift
+self.swift_performSelector("say:", withObject: "hello", afterDelay: 3.0)
 ```
 
 ## Sample Code

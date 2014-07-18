@@ -9,5 +9,6 @@
 @interface NSObject (Swift)
 
 - (id)swift_performSelector:(SEL)selector withObject:(id)object;
+- (void)swift_performSelector:(SEL)selector withObject:(id)object afterDelay:(NSTimeInterval)delay;
 
 @end

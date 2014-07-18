@@ -16,4 +16,12 @@
 #pragma clang diagnostic pop
 }
 
+- (void)swift_performSelector:(SEL)selector withObject:(id)object afterDelay:(NSTimeInterval)delay
+{
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+    return [self performSelector:selector withObject:object afterDelay:delay];
+#pragma clang diagnostic pop
+}
+
 @end
