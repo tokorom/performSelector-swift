@@ -11,7 +11,6 @@
 		065D8C3F1978C50000424340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065D8C391978C50000424340 /* Images.xcassets */; };
 		065D8C411978C50000424340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D8C3C1978C50000424340 /* ViewController.swift */; };
 		065D8C421978C5C800424340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D8C371978C50000424340 /* Main.storyboard */; };
-		06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B761978BF6B0022A77B /* NSObject+performSelector.swift */; };
 		06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 06978B791978C0790022A77B /* NSObject+Swift.m */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		065D8C431978C68900424340 /* performSelector-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "performSelector-swift.h"; sourceTree = "<group>"; };
 		06978B541978B8C90022A77B /* performSelector-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performSelector-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06978B661978B8C90022A77B /* performSelector-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "performSelector-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06978B761978BF6B0022A77B /* NSObject+performSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+performSelector.swift"; sourceTree = "<group>"; };
 		06978B791978C0790022A77B /* NSObject+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swift.m"; sourceTree = "<group>"; };
 		06978B7B1978C0A70022A77B /* NSObject+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				065D8C431978C68900424340 /* performSelector-swift.h */,
-				06978B761978BF6B0022A77B /* NSObject+performSelector.swift */,
 				06978B791978C0790022A77B /* NSObject+Swift.m */,
 				06978B7B1978C0A70022A77B /* NSObject+Swift.h */,
 			);
@@ -208,7 +205,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				065D8C411978C50000424340 /* ViewController.swift in Sources */,
-				06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */,
 				065D8C3D1978C50000424340 /* AppDelegate.swift in Sources */,
 				06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */,
 			);

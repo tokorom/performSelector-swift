@@ -8,7 +8,7 @@
 
 @implementation NSObject (Swift)
     
-- (id)bridge_performSelector:(SEL)selector withObject:(id)object
+- (id)swift_performSelector:(SEL)selector withObject:(id)object
 {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"

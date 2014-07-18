@@ -8,6 +8,6 @@
 
 @interface NSObject (Swift)
 
-- (id)bridge_performSelector:(SEL)selector withObject:(id)object;
+- (id)swift_performSelector:(SEL)selector withObject:(id)object;
 
 @end
