@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06978B5A1978B8C90022A77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B591978B8C90022A77B /* AppDelegate.swift */; };
-		06978B5C1978B8C90022A77B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B5B1978B8C90022A77B /* ViewController.swift */; };
-		06978B5F1978B8C90022A77B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06978B5D1978B8C90022A77B /* Main.storyboard */; };
-		06978B611978B8C90022A77B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06978B601978B8C90022A77B /* Images.xcassets */; };
-		06978B6D1978B8C90022A77B /* performSelector_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B6C1978B8C90022A77B /* performSelector_swiftTests.swift */; };
+		065D8C3D1978C50000424340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D8C361978C50000424340 /* AppDelegate.swift */; };
+		065D8C3F1978C50000424340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065D8C391978C50000424340 /* Images.xcassets */; };
+		065D8C411978C50000424340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D8C3C1978C50000424340 /* ViewController.swift */; };
+		065D8C421978C5C800424340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D8C371978C50000424340 /* Main.storyboard */; };
 		06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06978B761978BF6B0022A77B /* NSObject+performSelector.swift */; };
 		06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 06978B791978C0790022A77B /* NSObject+Swift.m */; };
 /* End PBXBuildFile section */
@@ -24,20 +23,26 @@
 			remoteGlobalIDString = 06978B531978B8C90022A77B;
 			remoteInfo = "performSelector-swift";
 		};
+		06978B7C1978C4170022A77B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06978B4C1978B8C90022A77B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06978B531978B8C90022A77B;
+			remoteInfo = "performSelector-swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065D8C361978C50000424340 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065D8C381978C50000424340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065D8C391978C50000424340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		065D8C3A1978C50000424340 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065D8C3B1978C50000424340 /* performSelector-swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "performSelector-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		065D8C3C1978C50000424340 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065D8C431978C68900424340 /* performSelector-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "performSelector-swift.h"; sourceTree = "<group>"; };
 		06978B541978B8C90022A77B /* performSelector-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performSelector-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06978B581978B8C90022A77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06978B591978B8C90022A77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06978B5B1978B8C90022A77B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06978B5E1978B8C90022A77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		06978B601978B8C90022A77B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		06978B661978B8C90022A77B /* performSelector-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "performSelector-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06978B6B1978B8C90022A77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06978B6C1978B8C90022A77B /* performSelector_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = performSelector_swiftTests.swift; sourceTree = "<group>"; };
 		06978B761978BF6B0022A77B /* NSObject+performSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+performSelector.swift"; sourceTree = "<group>"; };
-		06978B781978C0780022A77B /* performSelector-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "performSelector-swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		06978B791978C0790022A77B /* NSObject+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swift.m"; sourceTree = "<group>"; };
 		06978B7B1978C0A70022A77B /* NSObject+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swift.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,11 +65,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065D8C351978C50000424340 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				065D8C361978C50000424340 /* AppDelegate.swift */,
+				065D8C371978C50000424340 /* Main.storyboard */,
+				065D8C391978C50000424340 /* Images.xcassets */,
+				065D8C3A1978C50000424340 /* Info.plist */,
+				065D8C3B1978C50000424340 /* performSelector-swift-Bridging-Header.h */,
+				065D8C3C1978C50000424340 /* ViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		06978B4B1978B8C90022A77B = {
 			isa = PBXGroup;
 			children = (
+				065D8C351978C50000424340 /* Example */,
 				06978B561978B8C90022A77B /* performSelector-swift */,
-				06978B691978B8C90022A77B /* performSelector-swiftTests */,
 				06978B551978B8C90022A77B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,42 +99,12 @@
 		06978B561978B8C90022A77B /* performSelector-swift */ = {
 			isa = PBXGroup;
 			children = (
+				065D8C431978C68900424340 /* performSelector-swift.h */,
 				06978B761978BF6B0022A77B /* NSObject+performSelector.swift */,
-				06978B591978B8C90022A77B /* AppDelegate.swift */,
-				06978B5B1978B8C90022A77B /* ViewController.swift */,
-				06978B5D1978B8C90022A77B /* Main.storyboard */,
-				06978B601978B8C90022A77B /* Images.xcassets */,
 				06978B791978C0790022A77B /* NSObject+Swift.m */,
 				06978B7B1978C0A70022A77B /* NSObject+Swift.h */,
-				06978B781978C0780022A77B /* performSelector-swift-Bridging-Header.h */,
-				06978B571978B8C90022A77B /* Supporting Files */,
 			);
 			path = "performSelector-swift";
-			sourceTree = "<group>";
-		};
-		06978B571978B8C90022A77B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06978B581978B8C90022A77B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		06978B691978B8C90022A77B /* performSelector-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				06978B6C1978B8C90022A77B /* performSelector_swiftTests.swift */,
-				06978B6A1978B8C90022A77B /* Supporting Files */,
-			);
-			path = "performSelector-swiftTests";
-			sourceTree = "<group>";
-		};
-		06978B6A1978B8C90022A77B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06978B6B1978B8C90022A77B /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +139,7 @@
 			);
 			dependencies = (
 				06978B681978B8C90022A77B /* PBXTargetDependency */,
+				06978B7D1978C4170022A77B /* PBXTargetDependency */,
 			);
 			name = "performSelector-swiftTests";
 			productName = "performSelector-swiftTests";
@@ -199,8 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06978B5F1978B8C90022A77B /* Main.storyboard in Resources */,
-				06978B611978B8C90022A77B /* Images.xcassets in Resources */,
+				065D8C421978C5C800424340 /* Main.storyboard in Resources */,
+				065D8C3F1978C50000424340 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065D8C411978C50000424340 /* ViewController.swift in Sources */,
 				06978B771978BF6B0022A77B /* NSObject+performSelector.swift in Sources */,
-				06978B5C1978B8C90022A77B /* ViewController.swift in Sources */,
-				06978B5A1978B8C90022A77B /* AppDelegate.swift in Sources */,
+				065D8C3D1978C50000424340 /* AppDelegate.swift in Sources */,
 				06978B7A1978C0790022A77B /* NSObject+Swift.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06978B6D1978B8C90022A77B /* performSelector_swiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,13 +229,18 @@
 			target = 06978B531978B8C90022A77B /* performSelector-swift */;
 			targetProxy = 06978B671978B8C90022A77B /* PBXContainerItemProxy */;
 		};
+		06978B7D1978C4170022A77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06978B531978B8C90022A77B /* performSelector-swift */;
+			targetProxy = 06978B7C1978C4170022A77B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		06978B5D1978B8C90022A77B /* Main.storyboard */ = {
+		065D8C371978C50000424340 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				06978B5E1978B8C90022A77B /* Base */,
+				065D8C381978C50000424340 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -338,10 +331,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "performSelector-swift/Info.plist";
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "performSelector-swift/performSelector-swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/performSelector-swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -352,10 +345,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = "performSelector-swift/Info.plist";
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "performSelector-swift/performSelector-swift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/performSelector-swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -412,6 +405,7 @@
 				06978B721978B8C90022A77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06978B731978B8C90022A77B /* Build configuration list for PBXNativeTarget "performSelector-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +414,7 @@
 				06978B751978B8C90022A77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

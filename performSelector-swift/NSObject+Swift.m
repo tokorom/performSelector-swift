@@ -10,7 +10,10 @@
     
 - (id)bridge_performSelector:(SEL)selector withObject:(id)object
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     return [self performSelector:selector withObject:object];
+#pragma clang diagnostic pop
 }
 
 @end
