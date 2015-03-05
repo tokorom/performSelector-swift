@@ -24,4 +24,9 @@
 #pragma clang diagnostic pop
 }
 
+- (id)swiftClassFromString:(NSString *)className {
+  id myclass = [[NSClassFromString(className) alloc] init];
+  return myclass;
+}
+
 @end
