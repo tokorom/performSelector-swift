@@ -15,6 +15,17 @@ println("ret = \(ret)");
 self.swift_performSelector("say:", withObject: "hello", afterDelay: 3.0)
 ```
 
+- swiftClassFromString:
+
+```swift
+if let carrierInfoObjC: NSObject = NSObject.swiftClassFromString("CarrierInfoObjC") as? NSObject {
+  let getSignalStrength: Selector = "getSignalStrength"
+  // make sure that the method exists on the class
+  if carrierInfoObjC.respondsToSelector(getSignalStrength) {
+    // get the return from the method when called
+    let temp: AnyObject? = carrierInfoObjC.swift_performSelector(getSignalStrength)
+```
+
 ## Sample Code
 
 - [Example](https://github.com/tokorom/performSelector-swift/tree/master/Example)
@@ -40,5 +51,3 @@ and
 // YOur Bridging-Header.h
 #import "performSelector-swift.h"
 ```
-
-
