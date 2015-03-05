@@ -7,6 +7,13 @@
 #import "NSObject+Swift.h"
 
 @implementation NSObject (Swift)
+
+- (id)swift_performSelector:(SEL)selector {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+  return [self performSelector:selector];
+#pragma clang diagnostic pop
+}
     
 - (id)swift_performSelector:(SEL)selector withObject:(id)object
 {
